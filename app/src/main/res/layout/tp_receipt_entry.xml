@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/receipt_entry"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tp_receipt_entry_name"
+        android:layout_width="0dp"
+        android:paddingLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Item"/>
+    <TextView
+        android:id="@+id/tp_receipt_entry_qty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Qty"/>
+    <TextView
+        android:id="@+id/tp_receipt_entry_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Price"/>
+</LinearLayout>

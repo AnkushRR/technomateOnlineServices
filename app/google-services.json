@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "422794259827",
+    "firebase_url": "https://technomate-online-store.firebaseio.com",
+    "project_id": "technomate-online-store",
+    "storage_bucket": "technomate-online-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422794259827:android:f14ef717ab30d877",
+        "android_client_info": {
+          "package_name": "nf.co.ankushrodewad.technomateonlinestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422794259827-93ues1dm0ngonj6q2fuv6u877h7r195h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nf.co.ankushrodewad.technomateonlinestore",
+            "certificate_hash": "68f3da05440d7b676fcd652f2bd2293c45e700c4"
+          }
+        },
+        {
+          "client_id": "422794259827-s9f66bqht7cajalrr9bsn25qrurt6d51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-0rwF1238FWYH2iaqk8PA_xppPuzsUo0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422794259827-s9f66bqht7cajalrr9bsn25qrurt6d51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

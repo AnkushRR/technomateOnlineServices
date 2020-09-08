@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nf.co.ankushrodewad.technomateonlinestore">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/CustomTheme"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ZoomActivity" />
+        <activity
+            android:name=".UserFormActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".CartActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".OrderActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".BuyActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".ProductActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".ProductsActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".WishListActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
